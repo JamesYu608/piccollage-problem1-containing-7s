@@ -1,7 +1,7 @@
 const { containDigitCount, bruteForceCount } = require('../index')
 
 describe('[Function] containDigitCount', () => {
-  describe('Validate result by using brute force approach', () => {
+  describe('Validate results by comparing with results of brute force approach', () => {
     const inputs = generateInputs()
     const targetDigits = [1, 5, 7, 9]
 

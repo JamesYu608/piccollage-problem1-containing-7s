@@ -1,7 +1,7 @@
 const { bruteForceCount } = require('../index')
 
 describe('[Function] bruteForceCount', () => {
-  test('Example test cases in quiz description', () => {
+  test('Example test cases in the quiz description', () => {
     const testCases = [ // Array of [N, g(N)]
       [7, 1],
       [20, 2],
